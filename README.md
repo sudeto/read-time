@@ -4,21 +4,20 @@ This service makes calculating estimated reading time of a blog effortless — w
 
 ### For Non-Developers: Simple Integration, Zero Hassle
 
-- Plug-and-Play via CDN
-  
-  Just drop our CDN script onto your website, and there you go!
+- [x] **Plug-and-Play via CDN**: Just drop the given CDN script onto your website, and there you go!
 
-- Your content never leaves your device!
-  
-  No need to send content or data. The service computes some metrics from your blog content on your device and returns the estimated reading time in the background. Set it once and forget it.
+- [x] **Your content never leaves your device!** No need to send content or data. The service computes some metrics from your blog content on your device and returns the estimated reading time in the background. Set it once and forget it.
 
 
 ### For Developers: Simple API Access
 
-- Instant API Access
+- [x] **Instant API Access**. With just a simple JSON payload, you get to use the API. No need to worry about backend logic or processing.
 
-  With just a simple JSON payload, you get to use the API. No need to worry about backend logic or processing.
 
-- Interactive API Documentation
+## Why Sudeto's Read Time Service?
+- [x] **No Payload Required**. Unlike most services, we don't ask for your content. With our simple metric system, we
+  can calculate reading time with just a few numbers.
+  
+- [x] **Zero Maintenance**. Just add our script to your site, and we’ll handle the rest
 
-  The service comes with Swagger UI docs to explore and test the API endpoints before use!
+- [x] **Perfect for Everyone**. Whether you're a marketer, blogger, or developer, Sudeto's Read Time Service fits your needs.
