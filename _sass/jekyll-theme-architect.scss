@@ -2,11 +2,12 @@
 @import "rouge-github";
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* LAYOUT STYLES */
 body {
-  font-family: 'Inter', Helvetica, Arial, serif;
+  font-family: 'Montserrat', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
@@ -28,13 +29,13 @@ a:hover {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
 
 header h1 {
-  width: 540px;
+  width: 900px;
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 72px;
@@ -45,7 +46,7 @@ header h1 {
 }
 
 header h2 {
-  width: 540px;
+  width: 900px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 26px;
@@ -99,7 +100,7 @@ a.button {
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 23px;
   line-height: 1.2;
   color: #fff;
@@ -192,7 +193,7 @@ form {
 #main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 2.8em;
   font-weight: normal;
   color: #474747;
@@ -209,7 +210,7 @@ form {
 
 #main-content h2 {
   margin-bottom: 8px;
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
   font-weight: bold;
   color: #474747;
@@ -225,7 +226,7 @@ form {
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   font-weight: bold;
   color: #474747;
@@ -241,7 +242,7 @@ form {
 
 #main-content h4 {
   margin-bottom: 8px;
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: bold;
   color: #474747;
@@ -257,7 +258,7 @@ h4:before {
 
 #main-content h5 {
   margin-bottom: 8px;
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 14px;
   color: #474747;
   text-indent: 3px;
@@ -271,7 +272,7 @@ h5:before {
 
 #main-content h6 {
   margin-bottom: 8px;
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: .8em;
   color: #474747;
   text-indent: 3px;
