@@ -118,23 +118,26 @@ window.onload = async function () {
 
 
 ## API Docs
-Check out our [API](https://sudeto-services.onrender.com/api-docs/) to interact with our API with sample data, and check sample responses
+Check out our [API Documentation](https://sudeto-services.onrender.com/api-docs/) to interact with our API with sample data, and check sample responses
 
 ## Sample Request & Response
-REQUEST
+#### REQUEST
+
+`POST /api/read-time/v1` 
 ```json
 {
-	"character_count": 4500,
-	"word_count": 560,
+  "character_count": 4500,
+  "word_count": 560,
   "space_count": 40
 }
 ```
 
-RESPONSE
+#### RESPONSE
+
 STATUS CODE: 200
 ```JSON
 {
-	"estimated_read_time": 3
+  "estimated_read_time": 3
 }
 ```
 
@@ -143,7 +146,7 @@ STATUS CODE: 200
 - **Multi-language Support**. Based on simple heuristics, the service recognises the language and adjusts the WPM (Words Per Minute) rate for that language
 
 - **No Payload Required**. Unlike most services, we don't ask for your content. With our simple metric system, we
-  can calculate reading time with just a few numbers.
+  can calculate reading time with derived metadata.
   
 - **Zero Maintenance**. Just add our script to your site, and we’ll handle the rest
 
