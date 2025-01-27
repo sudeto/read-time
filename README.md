@@ -1,8 +1,10 @@
-## What is ReadTime API Service?
+> **⚠️ NOTIFICATION: You may experience a delay in receiving a response from the server due to server spin-downs by our cloud services.**
 
-The ReadTime API is a powerful tool designed to calculate the estimated reading time for any content of any language based on character count, word count, and space count.
+## What is ReadTime Estimation Service?
 
-Whether you're a content creator, developer, or someone looking for quick content insights, our API makes the process effortless.
+The Content ReadTime Estimation Service is a tool for calculating the estimated reading time of a static blog or any web content in any language based on metadata like character, word, and space count.
+
+Whether you're a content creator, developer, or marketer, our API / service makes the process effortless.
 
 ### Who Can Use ReadTime API?
 
@@ -17,12 +19,12 @@ Whether you're a content creator, developer, or someone looking for quick conten
 Paste the code below in your `<head>` tag of your web page
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/sudeto/cdn-deliver@main/read-time/1.1.0/api-client.js"
-integrity="sha384-zhLifh6TFfyzkTZgZl1tiXDYrzgyQkGZhOjvqmkpkLqD5H/z/Gse1ZWsnp1YY2re"
-crossorigin="anonymous" defer>
-</script>
+<script src="https://cdn.jsdelivr.net/gh/sudeto/cdn-deliver@main/read-time/1.1.1/api-client.js"
+integrity="sha384-UBkECvPNpir6odQxUgUyWA8S0JBNn24X1ga1hwxsjQ7aWDcsfVgSeBJf3hoVjZOq" crossorigin="anonymous"> defer</script>
 ```
-> Important: Do not make any changes in the integrity code [(SRI - Subresource Integrity)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity)
+> ⚠️ Important: Do not make any changes in the integrity value of the above code (SRI)
+> 
+> If you don't know what is SRI, please read about it [here](https://developer.mozilla.org/en-US/blog/securing-cdn-using-sri-why-how/).
 
 ### 2. Setup the following function calls
 
@@ -56,7 +58,7 @@ Copy the below code as it is under your `<body>` of the document, and follow the
 
 ### Adjust result according to your needs
 
-Since the service only returns a number (time in minutes) ustomise text in the template literal, and also convert minutes to hours!
+Since the service only returns a number (time in minutes) customise the text in the template literal and also convert minutes to hours!
 ```
 `${res} Mins` or `${res} MIN READ`
 ```
@@ -119,6 +121,7 @@ window.onload = async function () {
 
 ## API Docs
 Check out our [API Documentation](https://sudeto-services.onrender.com/api-docs/) to interact with our API with sample data, and check sample responses
+> **⚠️ NOTIFICATION: You may experience a delay in opening our API Docs page due to server spin-downs by our cloud services.**
 
 ## Sample Request & Response
 #### REQUEST
