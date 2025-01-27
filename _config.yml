@@ -1,4 +1,4 @@
 remote_theme: pages-themes/architect@v0.2.0
 
-title: [Sudeto Read Time Service]
-description: [Calculate & display your blog or web document's reading time without sending your blog content to the server]
+title: Blog Read Time Service
+description: Calculate & display your static blog or web document's reading time without sending your blog content to the server
