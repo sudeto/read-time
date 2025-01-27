@@ -157,3 +157,6 @@ STATUS CODE: 200
 
 ## Contact Us
 Email [Karan Kakati](mailto:karanpkofficial@gmail.com) to resolve any issue or if you need any clarification regarding integration.
+
+## System Status
+Visit [System Status Page](https://status-sudetoservices.onrender.com/) to check if this service is running.
