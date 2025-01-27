@@ -19,10 +19,10 @@ Whether you're a content creator, developer, or marketer, our API / service make
 Paste the code below in your `<head>` tag of your web page
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/sudeto/cdn-deliver@main/read-time/1.1.1/api-client.js"
-integrity="sha384-UBkECvPNpir6odQxUgUyWA8S0JBNn24X1ga1hwxsjQ7aWDcsfVgSeBJf3hoVjZOq" crossorigin="anonymous"> defer</script>
+<script src="https://cdn.jsdelivr.net/gh/sudeto/cdn-deliver@main/read-time/1.1.0/api-client.js"
+integrity="sha384-zhLifh6TFfyzkTZgZl1tiXDYrzgyQkGZhOjvqmkpkLqD5H/z/Gse1ZWsnp1YY2re" crossorigin="anonymous" defer></script>
 ```
-> ⚠️ Important: Do not make any changes in the integrity value of the above code (SRI)
+> ⚠️ Important: Do not make any changes in the integrity value of the above code (SRI) & use `1.1.0` version of the script only to avoid mistakes
 > 
 > If you don't know what is SRI, please read about it [here](https://developer.mozilla.org/en-US/blog/securing-cdn-using-sri-why-how/).
 
