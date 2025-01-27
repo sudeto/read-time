@@ -70,55 +70,6 @@ The ReadTime API Service will read the content by only parsing the readable text
 ![image](https://github.com/user-attachments/assets/e9e79f19-b3d6-4746-a1a5-134a7ba00a57)
 
 
-
-## Need an API access? Got you covered!
-
-### 1. Copy the code below either under `<script>` of your body or you can store it in an external JS file.
-
-```javascript
-
-const readableText = document.getElementById("blog-wrapper").innerText; // replace current ID with yours (refer ID1 above)
-
-function calculateMetrics(content) {
-    const wordsArray = content.split(/\s+/).filter(word => word.length > 0);
-
-    const characterCount = content.replace(/\s+/g, "").length;
-    const wordCount = wordsArray.length;
-    const spaceCount = (content.match(/\s/g) || []).length;
-
-    return { characterCount, wordCount, spaceCount };
-}
-
-async function fetchReadTime(metrics){
-
-    const response = await fetch("https://sudeto-services.onrender.com/api/read-time/v1", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-            character_count: metrics.characterCount,
-            word_count: metrics.wordCount,
-            space_count: metrics.spaceCount,
-        }),
-    });
-
-    const data = await response.json();
-    return data.estimated_read_time;
-}
-
-async function updateReadTime() {
-        let res = await fetchReadTime(calculateMetrics(readableText));
-        document.getElementById("readTime").innerText = `${res} Min Read`; // replace current ID with yours (refer ID2 above)
-}
-
-window.onload = async function () {
-    await updateReadTime();
-};
-
-```
-
-
 ## API Docs
 Check out our [API Documentation](https://sudeto-services.onrender.com/api-docs/) to interact with our API with sample data, and check sample responses
 > **⚠️ NOTIFICATION: You may experience a delay in opening our API Docs page due to server spin-downs by our cloud services.**
