@@ -2,7 +2,8 @@
 
 Functional Overview of the Service
 
-![sudeto-read-time drawio](https://github.com/user-attachments/assets/819c36e6-a387-4e98-8777-4e52af97ef92)
+![sudeto-read-time drawio](https://github.com/user-attachments/assets/96f99993-68ac-4b88-baff-e3569bdfb24c)
+
 
 ## What is ReadTime Estimation Service?
 
