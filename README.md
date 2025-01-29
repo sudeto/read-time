@@ -1,5 +1,9 @@
 > **⚠️ NOTIFICATION: You may experience a delay in receiving a response from the server due to server spin-downs by our cloud services.**
 
+Functional Overview of the Service
+
+![sudeto-read-time drawio](https://github.com/user-attachments/assets/819c36e6-a387-4e98-8777-4e52af97ef92)
+
 ## What is ReadTime Estimation Service?
 
 The Content ReadTime Estimation Service is a tool for calculating the estimated reading time of a static blog or any web content in any language based on metadata like character, word, and space count.
